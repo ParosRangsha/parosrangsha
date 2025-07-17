@@ -14,7 +14,7 @@ const Home = () => {
           <div className="banner mx-auto flex">
             <div className="txt w-[60%] pr-[10px] lg:px-[100px] lg:w-2/3 lg:flex flex-col items-center justify-center">
               <h1 className='text-[18px] lg:text-[36px] font-extrabold'> <span className='text-[14px] lg:text-[24px] opacity-60 italic'>Hi I'm </span>PAROS RANGSHA</h1>
-              <p className='text-[10px] lg:text-[16px] text-justify opacity-60 italic'>I come from a loving family. My father's name is Atindra Mankhin, and my mother's name is Anoti Rangsha. I am the elder of two siblings, and I have a younger brother named Abhijeet Rangsha.</p>
+              <p className='text-[10px] lg:text-[16px] text-justify opacity-60 italic'>I am a web developer. I am from Sherpur district, located in the Mymensingh Division of Bangladesh. I have a strong passion for web technologies and have been dedicated to developing websites that are both functional and user-friendly. I come from a loving family. My father's name is Atindra Mankhin, and my mother's name is Anoti Rangsha. I am the elder of two siblings, and I have a younger brother named Abhijeet Rangsha.</p>
               <NavLink to='/about' className='inline-block text-[10px] lg:text-[16px] rounded-[5px] lg:rounded-[10px] py-[5px] px-[15px] lg:py-[20px] lg:px-[64px] my-[#3F8E00] bg-[#3F8E00] hover:bg-bkColor'>Show more details</NavLink>            </div>
             <div className="thumb w-[40%] lg:w-1/3 h-full flex flex-col justify-center items-center">
               <img src={myphoto} alt="" className='h-[120px] lg:h-[250px]' />
