@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Moment from './Pages/Moment'
+import Family from './Pages/Family'
 function App() {
 let multipage = createBrowserRouter(createRoutesFromElements(
   <Route element={<Layout/>}>
@@ -12,6 +13,7 @@ let multipage = createBrowserRouter(createRoutesFromElements(
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/moment' element={<Moment/>}/>
+    <Route path='/family' element={<Family/>}/>
   </Route>
 ))
   return (
