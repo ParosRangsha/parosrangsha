@@ -7,9 +7,11 @@ import Contact from './Pages/Contact'
 import Moment from './Pages/Moment'
 import Family from './Pages/Family'
 import Job from './Pages/Job'
+import Error from './Pages/Error'
 function App() {
 let multipage = createBrowserRouter(createRoutesFromElements(
   <Route element={<Layout/>}>
+    <Route path='*' element={<Error/>}/>
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
