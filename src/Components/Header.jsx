@@ -19,10 +19,10 @@ const Header = () => {
           </div>
           <div className="Menu lg:w-[40%] lg:flex justify-end lg:py-[5px]">
             <ul className='flex gap-1'>
-              <li><NavLink to='/' className={({ isActive }) =>isActive? 'w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>Home</NavLink></li>
-              <li><NavLink to='/moment' className={({ isActive }) =>isActive? 'w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>Moment</NavLink></li>
-              <li><NavLink to='/about' className={({ isActive }) =>isActive? 'w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>About</NavLink></li>
-              <li><NavLink to='/contact' className={({ isActive }) =>isActive? 'w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>Contact</NavLink></li>
+              <li><NavLink to='/' className={({ isActive }) =>isActive? 'text-[10px] lg:text-[16px] w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'text-[10px] lg:text-[16px] hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>Home</NavLink></li>
+              <li><NavLink to='/moment' className={({ isActive }) =>isActive? 'text-[10px] lg:text-[16px] w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'text-[10px] lg:text-[16px] hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>Moment</NavLink></li>
+              <li><NavLink to='/about' className={({ isActive }) =>isActive? 'text-[10px] lg:text-[16px] w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'text-[10px] lg:text-[16px] hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>About</NavLink></li>
+              <li><NavLink to='/contact' className={({ isActive }) =>isActive? 'text-[10px] lg:text-[16px] w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px] bg-activeBg' : 'text-[10px] lg:text-[16px] hover:bg-hvColor w-full block px-[10px] lg:px-[30px] lg:py-[10px] py-[5px]'}>Contact</NavLink></li>
             </ul>
           </div>
         </div>
