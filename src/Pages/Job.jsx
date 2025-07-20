@@ -5,7 +5,7 @@ const Job = () => {
   return (
     <div className="pt-[80px]">
         <Container>
-            <h1 className="text-2xl font-bold text-gray-800 mb-4">Job Experience</h1>
+            <h1 className="text-[18px] font-bold">Job Experience</h1>
             <div className="lg:flex">
                 <div className="pt-[20px] lg:w-1/2">
                     <h2 className="text-xl font-semibold text-blue-700">Officer – ERP & Final Inspection</h2>
