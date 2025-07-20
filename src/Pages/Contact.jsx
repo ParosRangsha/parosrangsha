@@ -19,16 +19,16 @@ const Contact = () => {
       <Container>
         <div className="contain">
           <h1 className='text-[18px] font-bold'>Contact Me</h1>
-          <div className="w-[400px] flex">
+          <div className="flex">
             <p className='w-[120px]'>Address</p> <p className='w-[20px]'>:</p> <p>Tarani, Nalitabari, Sherpur</p>
           </div>
-          <div className="w-[400px] flex">
+          <div className="flex">
             <p className='w-[120px]'>Mobile No.</p> <p className='w-[20px]'>:</p> <p>+8801705620421</p>
           </div>
-          <div className="w-[400px] flex">
+          <div className="flex">
             <p className='w-[120px]'>E-mail</p> <p className='w-[20px]'>:</p> <p>+paroscrangsha@gmail.com</p>
           </div>
-          <div className="w-[400px] flex">
+          <div className=" flex">
             <p className='w-[120px]'>Whatsapp me</p> <p className='w-[20px]'>:</p> 
             <div className="flex flex-col">
               <label htmlFor="whatsapptxt">Message</label>
