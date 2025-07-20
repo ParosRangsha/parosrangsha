@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div className="contact pt-[80px]">
       <Container>
-        <div className="contain">
+        <div className="contain text-[10px] lg:text-[16px]">
           <h1 className='text-[18px] font-bold'>Contact Me</h1>
           <div className="flex">
             <p className='w-[120px]'>Address</p> <p className='w-[20px]'>:</p> <p>Tarani, Nalitabari, Sherpur</p>
