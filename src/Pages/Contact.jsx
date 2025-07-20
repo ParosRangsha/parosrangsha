@@ -33,7 +33,7 @@ const Contact = () => {
             <p className='w-[120px]'>Whatsapp me</p> <p className='w-[20px]'>:</p> 
             <div className="flex flex-col">
               <label htmlFor="whatsapptxt">Message</label>
-              <textarea name="" id="whatsapptxt" cols={20} rows={5} onChange={txtMessage}/>
+              <textarea name="" id="whatsapptxt" cols={20} rows={5} onChange={txtMessage} className='text-[#000] p-[5px] my-[5px]' placeholder='Type your message here'/>
               <button onClick={sendtoMessage} className='py-[5px] px-[20px] bg-[#343434] mt-[10px] hover:bg-[#770]'>Send</button>
             </div>
           </div>
