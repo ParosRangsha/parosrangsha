@@ -17,7 +17,8 @@ const Contact = () => {
   return (
     <div className="contact pt-[80px]">
       <Container>
-        <div className="contain text-[10px] lg:text-[16px]">
+        <div className="contain text-[10px] lg:text-[16px] lg:flex flex-col justify-center items-center">
+          <div className="">
           <h1 className='text-[18px] font-bold'>Contact Me</h1>
           <div className="flex">
             <p className='w-[120px]'>Address</p> <p className='w-[20px]'>:</p> <p>Tarani, Nalitabari, Sherpur</p>
@@ -35,6 +36,7 @@ const Contact = () => {
               <textarea name="" id="whatsapptxt" cols={20} rows={5} onChange={txtMessage}/>
               <button onClick={sendtoMessage} className='py-[5px] px-[20px] bg-[#343434] mt-[10px] hover:bg-[#770]'>Send</button>
             </div>
+          </div>
           </div>
 
         </div>
